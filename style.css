@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+}
+
+#revolver {
+  font-size: 60px;
+  margin-bottom: 15px;
+  transition: transform 0.4s ease;
+}
+
+.spin {
+  transform: rotate(720deg);
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  background: crimson;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#resetBtn {
+  background: #444;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.stats {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
